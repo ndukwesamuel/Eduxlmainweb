@@ -5,7 +5,9 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { useSelector } from "react-redux";
 
-const apiUrlV2 = "https://communist-carla-pausepoint-fb082012.koyeb.app/api";
+const apiUrlV2 = "https://eduxl2-production-daa2.up.railway.app/api";
+
+// "https://eduxl2-production-daa2.up.railway.app/api/users/",
 
 const fetchDataV2 = async (url, token) => {
   try {
